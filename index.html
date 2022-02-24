@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Colores</title>
+		<link rel="stylesheet" type="text/css" href="efectos02.css">
+		<script type="text/javascript" src="js_prog_10.js"></script>
+	</head>
+	<body><center>
+		<br><br>
+		<p class="titulo24">Cambiar propiedades de los elementos</p>
+		<br>
+		<table border="3" width="60%">
+			<form name="f_colores">
+				<tr align="center">
+					<td><p><b>Color Fondo</b></p></td>
+					<td><p><b>Color Texto</b></p></td>
+					<td><p><b>Resultado</b></p></td>
+				</tr>
+				<tr align="center">
+					<td><select name="color_fondo" class="campo">
+						<option value="#FFFFFF">Blanco</option>
+						<option value="#1A93FF">Azul</option>
+						<option value="#FFF03A">Amarillo</option>
+						<option value="#3BDA2B">Verde</option>
+					</select></td>
+					<td><select name="color_texto" class="campo">
+						<option value="#000000">Negro</option>
+						<option value="#E10000">Rojo</option>
+						<option value="#9700FF">Morado</option>
+						<option value="#BB6100">Café</option>
+					</select></td>
+					<td><textarea class="campo" name="res" cols="15" rows="7" style="resize: none;">Este es el resultado visual de tu selección</textarea></td>
+				</tr>
+				<tr align="center">
+					<td colspan="3"><input type="button" name="b_ejecuta" class="boton" value="Ejecutar" onclick="ejecutar()"></td>
+				</tr>
+			</form>
+		</table>
+	</center></body>
+</html>
